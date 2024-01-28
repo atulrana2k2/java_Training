@@ -1,0 +1,17 @@
+public class pattern1 {
+    public static void main(String[] args)
+    {
+        int i,j,k=1;
+        for (i=0;i<5;i++)
+        {
+            k=1;
+            for(j=0;j<5;j++)
+            {
+                if(i>=j)
+                    System.out.print(k++ + " ");
+
+            }
+            System.out.println();
+        }
+    }
+}
